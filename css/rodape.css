@@ -1,0 +1,24 @@
+.rodape {
+    padding: 10px;
+}
+
+.texto-rodape {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.rodape {
+    display: grid;
+    grid-template-columns: repeat(autofill, minmax(300px, 1fr));
+    margin: auto 5%;
+    gap: 5px;
+}
+
+i {
+    font-size: 60px;
+    transition: all 300ms ease-in-out;
+}
+
+i:hover {
+    color: rgba(0,0,0,0.8);
+}
