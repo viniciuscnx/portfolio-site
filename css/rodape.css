@@ -1,18 +1,20 @@
 .rodape {
     padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto 5%;
+    gap: 5px;
 }
 
 .texto-rodape {
     font-size: 1.8rem;
     font-weight: 600;
+
 }
 
-.rodape {
-    display: grid;
-    grid-template-columns: repeat(autofill, minmax(300px, 1fr));
-    margin: auto 5%;
-    gap: 5px;
-}
 
 i {
     font-size: 60px;

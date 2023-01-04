@@ -1,0 +1,36 @@
+#div-projetos {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    min-height: 90%;
+    max-height: 90%;
+}
+
+.projetos {
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    align-self: center;
+    border-radius: 10%;
+}
+
+.titulo-projetos {
+    align-self: flex-start;
+    justify-self: center;
+    font-size: 3rem;
+    background-color: black;
+}
+
+h2 {
+    background-color: black;
+    text-align: center;
+}
+
+.texto-projetos {
+    align-self: center;
+    margin: 0 auto;
+    font-size: 2.5rem;
+    font-weight: 700;
+    background-color: black;
+}
+
