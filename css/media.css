@@ -1,0 +1,24 @@
+@media screen and (max-width: 760px) {
+    nav {
+        flex-direction: column;
+    }
+    .menu ul {
+        flex-direction: column;
+    }
+
+    img {
+        margin: 0 auto;
+    }
+
+    .main {
+        height: 100vh;
+    }
+
+    #div-projetos {
+        height: fit-content;
+    }
+
+    .projetos {
+        align-self: center;
+    }
+}

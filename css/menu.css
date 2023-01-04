@@ -2,11 +2,11 @@
     font-size: 2rem;
     padding-top: 100px;
     display: flex;
-    flex-wrap: wrap;
     gap: 50px;
     font-weight: bold;
 }
 .menu li {
+    display: inline-block;
     border-bottom: 4px solid transparent;
     transition: all 300ms ease-in-out;
 }

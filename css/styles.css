@@ -32,7 +32,7 @@ nav {
     width: 100%;
     text-align: justify;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     align-items: flex-start;
     font-family: 'Courier New', Courier, monospace;
 }
