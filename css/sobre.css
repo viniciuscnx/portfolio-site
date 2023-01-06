@@ -1,0 +1,23 @@
+#sobre {
+    display: flex;
+    flex-direction: row;
+}
+
+#sobre div {
+    width: 50%;
+}
+
+.texto-sobre {
+    background-color: #000;
+}
+
+.imagem-sobre {
+    background-color: #000;
+    margin-top: 20px;
+    
+}
+
+.imagem-sobre img {
+    background-color: #000;
+    
+}
