@@ -54,5 +54,5 @@ margin-top: 30px;
 }
 
 #linkedin-btn:hover {
-    padding: 35px 185px;
+    transform: scale(1.1);
 }
