@@ -9,15 +9,47 @@
 
 .texto-sobre {
     background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.texto-sobre li {
+    list-style: circle;
+    margin-left: 20px;
+    background-color: #000;
+}
+
+.texto-sobre ul {
+    background-color: #000;
+    margin-left: 20px;
+}
+
+.texto-sobre p {
+    background-color: #000;
+}
+
+.texto-sobre h1 {
+    background-color: #000;
+}
+
+.texto-sobre h1, p, li  {
+    text-align: justify;
+    font-size: 2rem;
+    margin-left: 20px;
 }
 
 .imagem-sobre {
     background-color: #000;
-    margin-top: 20px;
+    margin: auto;
     
 }
 
 .imagem-sobre img {
     background-color: #000;
-    
+    border: 4px solid #fff;
+    border-radius: 50%;
+    padding: 0;
 }
+

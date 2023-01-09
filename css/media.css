@@ -55,4 +55,18 @@
         width: 370px;
         margin: 0 auto;
     }
+
+    #sobre {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    #sobre div {
+        width: 100%;
+    }
+
+    .imagem-sobre {
+        margin-top: 0;
+    }
 }
