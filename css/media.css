@@ -51,22 +51,30 @@
     }
 
     #img-pc {
-        height: 419px;
-        width: 370px;
-        margin: 0 auto;
+        height: 100%;
+        width: 100%;
+        margin-left: 50%;
     }
 
     #sobre {
         display: flex;
         flex-direction: column;
-        
+        height: 130vh;
     }
 
     #sobre div {
         width: 100%;
     }
 
-    .imagem-sobre {
-        margin-top: 0;
+    .imagem-sobre div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    #img-sobre-id {
+        height: 90%;
+        width: 80%;
     }
 }
