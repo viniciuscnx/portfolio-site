@@ -24,3 +24,15 @@ img {
     min-width: 50%;
     padding-left: 10%;
 }
+
+.mobile-menu {
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background-color: #FFF;
+    margin: 8px;
+}
